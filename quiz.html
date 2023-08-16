@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game Kemerdekaan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style-game.css">
+</head>
+
+<body>
+
+    <header class="bg-danger text-white text-center py-4">
+        <h1>Kuis Kemerdekaan</h1>
+    </header>
+
+    <section id="game">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 mt-3">
+                    <a href="index.html" class="btn btn-outline-danger mb-2">
+                        <i class="fas fa-solid fa-arrow-left"></i>
+                    </a>
+                    <div class="card p-4" id="quiz">
+                        <h4 id="question"></h4>
+                        <div class="form-check">
+                            <input class="form-check-input answer" type="radio" name="answer" id="a">
+                            <label class="form-check-label" for="a" id="labelA"></label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input answer" type="radio" name="answer" id="b">
+                            <label class="form-check-label" for="b" id="labelB"></label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input answer" type="radio" name="answer" id="c">
+                            <label class="form-check-label" for="c" id="labelC"></label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input answer" type="radio" name="answer" id="d">
+                            <label class="form-check-label" for="d" id="labelD"></label>
+                        </div>
+                        <div>
+                            <button type="submit" id="nextButton" class="btn btn-danger float-end">
+                                NEXT <i class="fas fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="js/quiz.js"></script>
+</body>
+
+</html>

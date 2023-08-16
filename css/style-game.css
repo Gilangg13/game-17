@@ -1,0 +1,41 @@
+#question {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+header {
+  background-color: #c71f26;
+  color: white;
+  padding: 1rem 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+}
+
+#nextButton,
+#checkWord {
+  background-color: #c71f26;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#nextButton:hover,
+#checkWord:hover {
+  background-color: #c71f26;
+  transform: scale(1.05);
+}
+
+#game {
+  min-height: 100vh;
+  background: linear-gradient(#fff, #c71f26);
+}

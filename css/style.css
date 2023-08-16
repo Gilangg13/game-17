@@ -1,0 +1,68 @@
+body {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar,
+.navbar-brand,
+.nav-link {
+  background-color: #c71f26;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-nav .nav-link.active {
+  color: white !important;
+}
+
+.home {
+  background: url(../assets/asset-2.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  min-height: 90vh;
+  padding-top: 5rem;
+  background-position: right -5% top 1%;
+}
+
+.home h2,
+.game h2 {
+  padding-top: 1.5rem;
+  font-size: 54px;
+  color: #c71f26;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.home .date-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 100%;
+}
+
+.home .date-container img {
+  width: 60%;
+  padding-top: 220px;
+}
+
+.home h3.date {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
+}
+
+.home h3.date span {
+  font-size: 5rem;
+}
+
+.home p {
+  font-weight: 400;
+  color: #5a5656;
+}
+
+.game {
+  min-height: 100vh;
+}
+
+main {
+  background: linear-gradient(#fff, #c71f26);
+}
